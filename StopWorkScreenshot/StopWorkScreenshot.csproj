@@ -92,8 +92,16 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ReadmeImage\1.png" />
+    <Content Include="ReadmeImage\2.png" />
+    <Content Include="ReadmeImage\3.png" />
+    <Content Include="ReadmeImage\4.png" />
+    <Content Include="ReadmeImage\5.png" />
+    <Content Include="ReadmeImage\6.png" />
+    <Content Include="ReadmeImage\7.png" />
     <Content Include="WerFault.ico" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

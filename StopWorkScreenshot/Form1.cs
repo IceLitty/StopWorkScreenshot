@@ -18,17 +18,21 @@ namespace StopWorkScreenshot
             ApplicationName.Select();
         }
 
+        private string tCNStr = "F5保存截图至剪切板后F6保存文件";
+        private string tENStr = "F5 Save Screenshot and F6 save to file";
         private string aCNStr = "请输入应用程序显示名...file:开头则识为文件";
         private string aENStr = "App Name...Import file with file: prefix";
 
         private void rbCN_Click(object sender, EventArgs e)
         {
+            this.Text = tCNStr;
             textChanged();
             ApplicationName.Focus();
         }
 
         private void rbEN_Click(object sender, EventArgs e)
         {
+            this.Text = tENStr;
             textChanged();
             ApplicationName.Focus();
         }
